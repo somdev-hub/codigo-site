@@ -1,0 +1,125 @@
+@media screen and (max-width: 640px) {
+  .nav-right {
+    display: none;
+    flex-direction: column;
+    padding: 0;
+    height: 40vh;
+    width: 100%;
+    justify-content: space-between;
+    transition: 1.3s all;
+  }
+  .nav-logo img {
+    height: 35px;
+  }
+  .nav-logo p {
+    font-size: 1rem;
+  }
+  .nav-left {
+    width: 100%;
+    padding: 0;
+    justify-content: space-between;
+  }
+  .nav-hamburger {
+    justify-content: flex-end;
+  }
+  .nav-hamburger svg {
+    display: block;
+  }
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .nav-list {
+    width: 100%;
+    display: flex;
+    height: 100%;
+  }
+  .nav-list ul {
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    margin: 0;
+  }
+  .nav-buttons {
+    width: 100%;
+  }
+  .nav-button {
+    width: 50%;
+  }
+
+  header {
+    margin-top: 10%;
+    flex-direction: column;
+  }
+  .header-left {
+    width: auto;
+    padding: 0 10px;
+  }
+  .header-right {
+    margin-top: 10%;
+    width: auto;
+  }
+  .header-left h3 {
+    font-size: 1.6rem;
+  }
+  .header-left h1 {
+    margin: 3% 0;
+    font-size: 3rem;
+  }
+  .header-left h4 {
+    font-size: 1.2rem;
+    width: auto;
+  }
+  .header-left p {
+    width: auto;
+    font-size: 14px;
+    margin-top: 5%;
+  }
+  .header-form form {
+    display: flex;
+  }
+  .header-form form input {
+    width: 70%;
+    height: 45px;
+    font-size: 1rem;
+    padding-left: 15px;
+  }
+  .header-form form button {
+    height: 45px;
+    width: 30%;
+    font-size: 1rem;
+  }
+
+  .outer-circle {
+    width: 300px;
+    height: 300px;
+  }
+  .small-circle {
+    width: 50px;
+    height: 50px;
+  }
+  .small-circle img {
+    width: 30px;
+  }
+  .inner-semicircle {
+    width: 225px;
+    height: 125px;
+    top: 19%;
+    left: 23%;
+  }
+  .inner-circle1 {
+    width: 180px;
+    height: 180px;
+    top: 18%;
+    left: 9%;
+  }
+  .inner-circle2 {
+    width: 125px;
+    height: 125px;
+    top: 15%;
+    left: 15%;
+  }
+  .inner-circle2 img {
+    width: 125px;
+  }
+}
