@@ -11,6 +11,10 @@ p {
   margin: 0;
 }
 
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
 /* navbar  */
 
 nav {
@@ -159,6 +163,7 @@ header {
   color: #fff;
   border-radius: 60px;
   font-size: 1.2rem;
+  cursor: pointer;
 }
 
 .outer-circle {
@@ -259,4 +264,148 @@ header {
 
 .social-icon img {
   width: 20px;
+}
+
+/* into section  */
+
+.intro-container {
+  position: relative;
+  margin-top: 5%;
+  width: 95vw;
+  height: 20rem;
+  background: rgba(237, 67, 34, 0.25);
+  border-radius: 30px;
+  padding: 2%;
+  box-sizing: border-box;
+}
+
+.intro-container p {
+  width: 60%;
+  margin-top: 15px;
+}
+
+.intro-container p:nth-child(3) {
+  font-weight: 600;
+}
+
+.intro-container h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.img-container {
+  width: 30%;
+  height: 75%;
+  position: absolute;
+  border-radius: 30px;
+  right: 0;
+  bottom: 0;
+  background-color: #8a8c8c;
+}
+
+/* intro2 section  */
+
+.intro2-right,
+.intro2-left {
+  width: 50%;
+}
+
+.intro2-left {
+  margin-right: 5%;
+}
+
+.intro2-right img {
+  width: 40rem;
+}
+
+.intro2-left h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.intro2-para {
+  margin: 3% 0;
+}
+
+.fc {
+  gap: 3%;
+}
+
+.fc-profile {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #eeeeee;
+}
+
+/* domains  */
+
+#domains {
+  height: 30rem;
+  background-color: #eeeeee;
+  width: 100vw;
+}
+
+#domains h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  padding-top: 2%;
+}
+
+.domain-container {
+  gap: 10%;
+  margin-top: 3%;
+}
+
+.domain {
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 35px;
+  background-color: #fff;
+  width: 15rem;
+  height: 17rem;
+  padding-left: 25px;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.domain:hover{
+  background-color: #ed4322;
+  cursor: pointer;
+}
+
+.domain:hover h3,.domain:hover p,.domain:hover{
+  color: #fff;
+}
+
+.domain:hover svg{
+  color: #fff;
+  margin-left: 10px;
+  transition: 500ms;
+}
+
+.domain h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  width: 50%;
+}
+
+.domain-icon {
+  width: 75px;
+  height: 75px;
+  background: #ffffff;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+}
+
+.domain-icon img {
+  width: 50px;
+  height: 50px;
+}
+
+.domain-link {
+  display: flex;
+  align-items: center;
+  gap: 5%;
 }
