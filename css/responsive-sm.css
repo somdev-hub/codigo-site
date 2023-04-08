@@ -2,6 +2,12 @@
   h2 {
     font-size: 1.6rem;
   }
+  h3{
+    font-size: 1.1rem;
+  }
+  h4 {
+    font-size: 1.2rem;
+  }
 
   .nav-right {
     display: none;
@@ -157,6 +163,7 @@
     height: 30%;
     border: 2px solid rgba(237, 67, 34, 0.5);
     box-sizing: border-box;
+    border-radius: 20px;
   }
 
   /* intro2 section  */
@@ -267,10 +274,55 @@
     width: auto;
     font-size: 14px;
   }
+  .msg6 {
+    left: 5%;
+    top: 37%;
+  }
+  .msg6 img {
+    width: 30%;
+  }
   .view-button {
     width: 8rem;
     height: 3rem;
     font-size: 1rem;
     margin-top: 15%;
+  }
+
+  /* activities section  */
+  #activities {
+    flex-direction: column;
+    margin-top: 10%;
+  }
+  .activity {
+    flex-direction: column;
+    margin-bottom: 10%;
+  }
+
+  .activity-img {
+    width: 85vw;
+    height: 15rem;
+    margin-bottom: 5%;
+  }
+
+  /* codigo-app section  */
+  #codigo-app {
+    flex-direction: column;
+  }
+  .container-left,
+  .container-right {
+    width: auto;
+  }
+  .container-left {
+    padding: 5%;
+  }
+  .container-left h2 {
+    font-size: 2rem;
+    width: 96%;
+  }
+  .container-right img {
+    width: 22rem;
+  }
+  .app-stores img {
+    width: 35%;
   }
 }
