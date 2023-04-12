@@ -5,6 +5,8 @@ nav.addEventListener("click", () => {
   navbar.classList.toggle("flex");
 });
 
+console.log(screen.width);
+
 const expand = document.querySelector(".expand-button");
 const coordContainer = document.querySelector(".coordinators-container");
 expand.addEventListener("click", () => {
@@ -15,5 +17,31 @@ expand.addEventListener("click", () => {
     coordContainer.style.height = "auto";
     expand.innerHTML = "Collapse";
   }
-  // document.querySelector(".coordinators-container").style.height="auto";
 });
+
+const testimonials = document.querySelector(".testimonials");
+const control1 = document.getElementById("control1");
+const control2 = document.getElementById("control2");
+const control3 = document.getElementById("control3");
+
+control1.onclick = function () {
+  if (screen.width > 640) testimonials.style.transform = "translateX(35rem)";
+  else testimonials.style.transform = "translateX(21rem)";
+  control1.classList.add("active");
+  control2.classList.remove("active");
+  control3.classList.remove("active");
+};
+control2.onclick = function () {
+  testimonials.style.transform = "translateX(0px)";
+  control1.classList.remove("active");
+  control2.classList.add("active");
+  control3.classList.remove("active");
+};
+
+control3.onclick = function () {
+  if (screen.width > 640) testimonials.style.transform = "translateX(-35rem)";
+  else testimonials.style.transform = "translateX(-21rem)";
+  control1.classList.remove("active");
+  control2.classList.remove("active");
+  control3.classList.add("active");
+};

@@ -2,7 +2,7 @@
   h2 {
     font-size: 1.6rem;
   }
-  h3{
+  h3 {
     font-size: 1.1rem;
   }
   h4 {
@@ -16,7 +16,7 @@
     height: 40vh;
     width: 100%;
     justify-content: space-between;
-    transition: 1.3s all;
+    transition: 1.3s;
   }
   .nav-logo img {
     height: 35px;
@@ -324,5 +324,73 @@
   }
   .app-stores img {
     width: 35%;
+  }
+
+  /* coordinators section  */
+  #coordinators {
+    margin-top: 10%;
+  }
+  #coordinators h2 {
+    margin-top: 5%;
+  }
+
+  .coordinators-container {
+    grid-template-columns: 20rem;
+    grid-auto-rows: 11rem;
+    margin-top: 10%;
+  }
+  .coordinator {
+    width: 20rem;
+    height: 8.5rem;
+    border-radius: 20px;
+  }
+  .info-title h5 {
+    font-size: 1rem;
+  }
+
+  /* testimonial section  */
+  #testimonials {
+    margin-top: 10%;
+  }
+  .user {
+    width: 20rem;
+    padding: 0 1%;
+    height: 13rem;
+  }
+  .user img {
+    top: 18%;
+    width: 3.5rem;
+  }
+  .user p {
+    margin: 30px 0 22px;
+  }
+  .space {
+    margin: 0 20px;
+  }
+
+  /* social section  */
+  #social {
+    margin-top: 10%;
+  }
+  .social-container {
+    width: 100%;
+    height: 13rem;
+    border-radius: 2rem;
+  }
+  .social-container h2 {
+    font-size: 1.6rem;
+  }
+  .social-buttons span {
+    width: 45px;
+    height: 45px;
+  }
+  .social-buttons span i {
+    color: #ed4322;
+    font-size: 1.2rem;
+  }
+
+  .social-buttons span:hover i {
+    font-size: 1.6rem;
+    transition: 0.5s;
   }
 }
