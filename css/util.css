@@ -7,3 +7,26 @@
   align-items: center;
   justify-content: center;
 }
+
+.flex-align {
+  display: flex;
+  align-items: center;
+}
+
+.flex-align-column {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-box-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

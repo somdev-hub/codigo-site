@@ -1,0 +1,52 @@
+.row-one {
+  width: 96%;
+  height: 27rem;
+  justify-content: space-between;
+}
+
+.container1 {
+  background-color: #ed4322;
+  border-radius: 30px;
+  width: 62%;
+  height: 100%;
+  padding: 3%;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.container1 h1 {
+  font-size: 5rem;
+  width: 50%;
+}
+
+.container1 p {
+  font-size: 1.2rem;
+}
+
+.container2 {
+  width: 35%;
+  height: 100%;
+  background-color: #ed4322;
+  border-radius: 30px;
+}
+
+.container2 img {
+  width: 25rem;
+}
+
+.row-two {
+  width: 96%;
+  height: 20rem;
+  background: rgba(237, 67, 34, 0.25);
+  border-radius: 30px;
+  margin-top: 3%;
+  padding: 3%;
+  box-sizing: border-box;
+}
+
+.skill {
+  background: rgba(237, 67, 34, 0.5);
+  border-radius: 5rem;
+  height: 3rem;
+  width: 5rem;
+}

@@ -15,6 +15,7 @@
     padding: 0;
     height: 40vh;
     width: 100%;
+    flex: auto;
     justify-content: space-between;
     transition: 1.3s;
   }
@@ -30,9 +31,9 @@
     justify-content: space-between;
   }
   .nav-hamburger {
-    justify-content: flex-end;
+    margin-right: 3%;
   }
-  .nav-hamburger svg {
+  .nav-hamburger i {
     display: block;
   }
   nav {
@@ -51,7 +52,7 @@
     margin: 0;
   }
   .nav-buttons {
-    width: 100%;
+    width: 95%;
   }
   .nav-button {
     width: 50%;
@@ -217,10 +218,12 @@
     padding: 0 3%;
     margin-top: 10%;
   }
+  #happenings p {
+    width: auto;
+  }
   .gallery-container {
     flex-direction: column;
   }
-
   .section1 img,
   .section5 img {
     width: 7rem;
@@ -347,6 +350,11 @@
   .info-title h5 {
     font-size: 1rem;
   }
+  .expand-button {
+    width: 8rem;
+    height: 2.5rem;
+    font-size: 14px;
+  }
 
   /* testimonial section  */
   #testimonials {
@@ -373,12 +381,16 @@
     margin-top: 10%;
   }
   .social-container {
-    width: 100%;
+    width: 95%;
     height: 13rem;
-    border-radius: 2rem;
+    border-radius: 1rem;
   }
   .social-container h2 {
     font-size: 1.6rem;
+  }
+  .social-container p {
+    font-size: 14px;
+    width: 90%;
   }
   .social-buttons span {
     width: 45px;
@@ -392,5 +404,33 @@
   .social-buttons span:hover i {
     font-size: 1.6rem;
     transition: 0.5s;
+  }
+
+  /* footer  */
+  #footer {
+    flex-direction: column-reverse;
+    margin-top: 10%;
+  }
+  .footer-left {
+    margin: 5% 0;
+  }
+  .footer-form form input {
+    width: 14rem;
+  }
+  .footer-logo {
+    width: 10rem;
+    height: 10rem;
+  }
+  .footer-logo img {
+    width: 8rem;
+  }
+  .links-container {
+    grid-template-columns: 20rem;
+    row-gap: 0;
+  }
+
+  /* copyright section  */
+  #copyright p {
+    width: auto;
   }
 }

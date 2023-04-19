@@ -1,11 +1,11 @@
-const nav = document.querySelector(".hamburger");
+const nav = document.querySelector(".nav-hamburger");
 const navbar = document.querySelector(".nav-right");
 nav.addEventListener("click", () => {
-  console.log("clicked");
+  // console.log("clicked");
   navbar.classList.toggle("flex");
 });
 
-console.log(screen.width);
+// console.log(screen.width);
 
 const expand = document.querySelector(".expand-button");
 const coordContainer = document.querySelector(".coordinators-container");
