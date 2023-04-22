@@ -1,0 +1,187 @@
+@media screen and (max-width: 640px) {
+  .row-one {
+    width: 96%;
+    /* height: 27rem; */
+    height: auto;
+    margin-bottom: 5%;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .container1 {
+    border-radius: 20px;
+
+    width: auto;
+
+    margin-bottom: 5%;
+    padding: 3%;
+  }
+
+  .container1 h1 {
+    font-size: 2.5rem;
+  }
+
+  .container1 p {
+    font-size: 14px;
+  }
+
+  .container2 {
+    width: auto;
+
+    border-radius: 20px;
+  }
+
+  .container2 img {
+    width: 15rem;
+  }
+
+  .row-two {
+    height: 20rem;
+    margin-top: 0;
+  }
+
+  .row-two h2 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .skill-container {
+    margin-top: 5%;
+    display: grid;
+  }
+
+  .skill-row1 {
+    display: grid;
+    grid-template-columns: 3rem 3rem 3rem;
+    row-gap: 0.5rem;
+    justify-content: space-around;
+    justify-items: center;
+    margin-bottom: 3%;
+  }
+
+  .skill {
+    height: 2rem;
+    width: 5rem;
+    font-size: 12px;
+  }
+
+  .sic-mssg {
+    flex-direction: column;
+    height: auto;
+    padding: 5%;
+  }
+
+  .sic-mssg-right img {
+    width: 20rem;
+  }
+
+  .features {
+    margin-top: 12%;
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature {
+    width: 90%;
+    height: 12rem;
+    margin-bottom: 12%;
+    border-radius: 20px;
+  }
+
+  .feature-icon {
+    width: 4.5rem;
+    height: 4.5rem;
+    top: -20%;
+  }
+
+  .feature-icon img {
+    width: 3rem;
+  }
+
+  /* domain intro  */
+
+  #domain-intro {
+    flex-direction: column-reverse;
+    margin: 4%;
+  }
+
+  .domain-intro-left img {
+    width: 22rem;
+  }
+
+  /* activity  */
+
+  .domain-activities-container {
+    margin-top: 10%;
+  }
+
+  .domain-activity {
+    flex-direction: column;
+  }
+
+  .tri-options div {
+    width: 10px;
+    height: 10px;
+  }
+
+  .d-activity-img-container {
+    width: 22rem;
+    height: 15rem;
+  }
+
+  .d-activity-img1 {
+    width: 18rem;
+    height: 10rem;
+  }
+
+  .d-activity-img2 {
+    width: 10rem;
+    height: 13rem;
+  }
+
+  .domain-activity-img {
+    margin: 10% 0;
+  }
+
+  .domain-activity2 .activity-text {
+    text-align: left;
+  }
+
+  /* projects section  */
+
+  #projects h2 {
+    margin-top: 5%;
+  }
+
+  .projects-container {
+    margin: 10% 0;
+  }
+
+  .project {
+    width: 17rem !important;
+    height: 22rem;
+    border-radius: 10px;
+  }
+
+  .project p,
+  .project-button span {
+    font-size: 14px;
+  }
+
+  .project-title img {
+    width: 1.4rem;
+  }
+
+  .project-button i {
+    font-size: 1.2rem;
+  }
+
+  .project-title i {
+    font-size: 1.2rem;
+  }
+
+  .project-title-text h5 {
+    font-size: 1rem;
+  }
+}

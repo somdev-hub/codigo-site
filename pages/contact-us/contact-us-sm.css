@@ -1,0 +1,58 @@
+@media screen and (max-width: 640px) {
+  .contact-title {
+    margin-top: 10%;
+    text-align: center;
+  }
+
+  .contact-us-container {
+    flex-direction: column;
+    padding: 2.5%;
+    width: 90%;
+    height: auto;
+    margin-top: 10%;
+  }
+
+  .top-content h3 {
+    font-size: 1.4rem;
+    width: auto;
+  }
+
+  .top-content p{
+    font-size: 14px;
+  }
+
+  .bottom-content{
+    margin-top: 20%;
+  }
+
+  .bottom-content span{
+    font-size: 14px;
+  }
+
+  .contact-rightcard{
+    width: 100%;
+    margin-top: 10%;
+  }
+
+  .contact-rightcard form ul li label {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .contact-rightcard form input{
+    border-bottom: 1.5px solid #000;
+  }
+
+  .contact-rightcard form textarea{
+    border: 1.5px solid #000;
+  }
+
+  .contact-buttons{
+    justify-content: center;
+    margin: 10% 0;
+  }
+
+  .contact-buttons button{
+    width: 8rem;
+  }
+}
