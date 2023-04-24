@@ -6,7 +6,7 @@ const contactPara = document.querySelector(".contact-title p");
 
 const submitForm = (formData) => {
   console.log(formData);
-  axios.post("http://localhost:3000/contact-us", formData).then((res) => {
+  axios.post("http://192.168.33.168:3000/contact-us", formData).then((res) => {
     console.log(res);
 
     if (res.status === 200) {

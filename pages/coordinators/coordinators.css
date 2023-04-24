@@ -1,0 +1,63 @@
+.coord-header-left,
+.coord-header-right {
+  flex: 1;
+}
+
+#coord-header {
+  height: 80vh;
+  margin-top: 3%;
+}
+
+.coord-header-left {
+  margin-left: 5%;
+  height: 100%;
+}
+
+.coord-heading {
+  height: 90%;
+}
+
+.coord-heading h1 {
+  color: #ed4322;
+}
+
+.coord-heading p {
+  width: 75%;
+  margin-top: 3%;
+  color: #434242;
+  font-weight: 500;
+}
+
+.mouse-scroll {
+  align-items: center;
+  gap: 5px;
+}
+
+.mouse-scroll i:nth-child(1) {
+  font-size: 1.8rem;
+}
+
+.mouse-scroll i:nth-child(2) {
+  font-size: 1.2rem;
+}
+
+#what-we-do {
+  background-color: #eeeeee;
+  margin-top: 5%;
+  padding: 2%;
+  box-sizing: border-box;
+}
+
+.what-we-do-left,
+.what-we-do-right {
+  flex: 1;
+}
+
+.what-we-do-left img {
+  width: 25rem;
+}
+
+.what-we-do-right p {
+  margin-top: 5%;
+  width: 80%;
+}

@@ -30,3 +30,9 @@
   justify-content: center;
   align-items: center;
 }
+
+.flex-justify-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
