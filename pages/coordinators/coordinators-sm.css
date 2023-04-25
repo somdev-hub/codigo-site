@@ -1,0 +1,85 @@
+@media screen and (max-width: 640px) {
+  #coord-header {
+    flex-wrap: wrap;
+    height: 100vh;
+  }
+
+  .coord-header-right img {
+    width: 18rem;
+  }
+
+  #what-we-do {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .what-we-do-left img {
+    width: 18rem;
+  }
+
+  .what-we-do-right {
+    margin: 10% 0;
+  }
+
+  .what-we-do-right p {
+    width: auto;
+  }
+
+  #coordinators-section {
+    margin-top: 10%;
+    padding: 0 3%;
+  }
+
+  .coord-content {
+    flex-direction: column;
+  }
+
+  .coord-img {
+    width: 70%;
+    height: 12rem;
+  }
+
+  .coord-img-bg {
+    width: 85%;
+    height: 10rem;
+  }
+
+  .coord-image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .coord-info {
+    margin-top: 10%;
+  }
+
+  .coord-content:nth-child(even) {
+    flex-direction: column;
+  }
+
+  .coord-content:nth-child(even) .coord-image {
+    justify-content: center;
+  }
+
+  .coord-img-container1,
+  .coord-img-container2 {
+    align-items: center;
+  }
+
+  .coord-img-sm {
+    width: 70%;
+    margin-bottom: 10%;
+    height: 8rem;
+    align-items: flex-end;
+  }
+
+  .coord-img-bg-sm {
+    width: 80%;
+    height: 6rem;
+  }
+
+  .coord-content:nth-child(even) .coord-img-container1,
+  .coord-content:nth-child(even) .coord-img-container2 {
+    align-items: center;
+  }
+}
