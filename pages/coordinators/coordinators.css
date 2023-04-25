@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .coord-header-left,
 .coord-header-right {
   flex: 1;
@@ -28,6 +32,11 @@
   font-weight: 500;
 }
 
+a[href="#what-we-do"] {
+  text-decoration: none;
+  color: #000;
+}
+
 .mouse-scroll {
   align-items: center;
   gap: 5px;
@@ -41,11 +50,15 @@
   font-size: 1.2rem;
 }
 
+#what-we-do,
+#coordinators-section {
+  box-sizing: border-box;
+  margin-top: 5%;
+}
+
 #what-we-do {
   background-color: #eeeeee;
-  margin-top: 5%;
   padding: 2%;
-  box-sizing: border-box;
 }
 
 .what-we-do-left,
@@ -60,4 +73,75 @@
 .what-we-do-right p {
   margin-top: 5%;
   width: 80%;
+}
+
+#coordinators-section {
+  padding: 0 5%;
+}
+
+.coord-content {
+  margin-bottom: 5%;
+}
+
+.coord-content:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.coord-image {
+  justify-content: flex-start;
+}
+
+.coord-content:nth-child(even) .coord-image {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.coord-image,
+.coord-info {
+  flex: 1;
+}
+
+.coord-img,.coord-img-sm{
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+
+.coord-img {
+  width: 60%;
+  height: 20rem;
+  align-items: flex-end;
+}
+
+.coord-img-sm {
+  width: 70%;
+  margin-bottom: 10%;
+  height: 10rem;
+  align-items: flex-end;
+}
+
+.coord-img-container1,
+.coord-img-container2 {
+  flex: 1;
+  align-items: flex-start;
+}
+
+.coord-content:nth-child(even) .coord-img-container1,
+.coord-content:nth-child(even) .coord-img-container2 {
+  align-items: flex-end;
+}
+
+.coord-img-bg {
+  background-color: #eeeeee;
+  width: 90%;
+  height: 17rem;
+}
+
+.coord-img-bg-sm {
+  background-color: #eeeeee;
+  width: 90%;
+  height: 8rem;
+}
+
+.coord-info h3 {
+  margin-bottom: 3%;
 }
