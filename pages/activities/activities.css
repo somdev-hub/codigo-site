@@ -1,0 +1,175 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#activities-header {
+  margin-top: 3%;
+  height: 80vh;
+}
+
+.activities-left {
+  margin-left: 5%;
+  flex: 1;
+  height: 100%;
+}
+
+.activities-left-text h1 {
+  color: #ed4322;
+  width: 50%;
+}
+
+.activities-left-text {
+  height: 90%;
+}
+
+.activities-left-text p {
+  width: 75%;
+  margin-top: 3%;
+  color: #434242;
+  font-weight: 500;
+}
+
+.activities-right {
+  flex: 1;
+  position: relative;
+}
+
+.activities-right img {
+  width: 28rem;
+}
+
+a[href="#l-n-p-approach"] {
+  text-decoration: none;
+  color: #000;
+}
+
+.mouse-scroll {
+  align-items: center;
+  gap: 5px;
+}
+
+.mouse-scroll i:nth-child(1) {
+  font-size: 1.8rem;
+}
+
+.mouse-scroll i:nth-child(2) {
+  font-size: 1.2rem;
+}
+
+.activity-msg {
+  background: #ffffff;
+  box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.12);
+  border-radius: 15px;
+  width: 13rem;
+  height: 4.3rem;
+  gap: 5%;
+  position: absolute;
+}
+
+.activity-msg1 {
+  left: 5%;
+  top: 5%;
+}
+
+.activity-msg2 {
+  bottom: -12%;
+  left: 13%;
+}
+
+.activity-msg3 {
+  right: 5%;
+  bottom: 12%;
+}
+
+.activity-msg img {
+  width: 3rem;
+}
+
+/* l-n-p section  */
+
+#l-n-p-approach {
+  background-color: #eeeeee;
+  margin-top: 5%;
+  padding: 2%;
+  box-sizing: border-box;
+}
+
+.l-n-p-left,
+.l-n-p-right {
+  flex: 1;
+}
+
+.l-n-p-left img {
+  height: 25rem;
+  width: 25rem;
+}
+
+.l-n-p-right p {
+  margin-top: 5%;
+  width: 80%;
+}
+
+/* sih section  */
+
+#sih {
+  margin-top: 5%;
+}
+
+#sih h2 {
+  width: 60%;
+  text-align: center;
+}
+
+.sih-team-container {
+  margin-top: 3%;
+  width: 100%;
+  padding: 3%;
+  box-sizing: border-box;
+}
+
+.sih-team {
+  justify-content: space-around;
+}
+
+.sih-team1 {
+  margin-bottom: 5%;
+}
+
+.team-card-container {
+  width: 25%;
+  height: 20rem;
+  border-right: 2px solid #ed4322;
+}
+
+.team-card {
+  width: 16rem;
+  height: 100%;
+  background: rgba(237, 67, 34, 0.25);
+  box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.12);
+  border-radius: 30px;
+}
+
+.team-img {
+  height: 50%;
+  width: 100%;
+}
+
+.team-img img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.team-desc {
+  padding: 5%;
+  margin-top: 5%;
+}
+
+.team-desc p {
+  margin-top: 5%;
+}
+
+.team-text {
+  width: 70%;
+}
