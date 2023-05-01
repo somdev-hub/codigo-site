@@ -173,3 +173,76 @@ a[href="#l-n-p-approach"] {
 .team-text {
   width: 70%;
 }
+
+#club-activities {
+  padding: 3%;
+}
+
+.club-activities-container {
+  margin-top: 5%;
+}
+
+.club-activity-left,
+.club-activity-right {
+  flex: 1;
+}
+
+.club-activity-left p {
+  margin-top: 3%;
+}
+
+.club-activity-left h3 {
+  color: #ed4322;
+}
+
+.club-activity-right {
+  justify-content: flex-end;
+}
+
+.club-activity {
+  height: 20rem;
+  border-bottom: 1px solid #ed4322;
+  align-items: flex-start;
+  margin-bottom: 5%;
+}
+
+.club-activity-img {
+  height: 15rem;
+  width: 60%;
+}
+
+.club-activity-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/* other activity section  */
+
+.other-activities-container {
+  margin-top: 5%;
+  gap: 5%;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.other-activity {
+  width: 20rem;
+  height: 25rem;
+}
+
+.other-activity img {
+  width: 100%;
+  height: 45%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.activity-data {
+  margin-top: 3%;
+}
+
+.activity-data > * {
+  margin-bottom: 3%;
+}

@@ -1,0 +1,136 @@
+@media screen and (max-width: 640px) {
+  #activities-header {
+    flex-wrap: wrap;
+    height: 100vh;
+    margin-top: 0;
+  }
+  .activities-left-text h1 {
+    width: auto;
+  }
+
+  .activities-right img {
+    width: 16rem;
+  }
+  .activity-msg img {
+    width: 2rem;
+  }
+
+  .activity-msg {
+    width: 10rem;
+    height: 3rem;
+    border-radius: 10px;
+  }
+
+  .activity-msg h5 {
+    font-size: 14px;
+  }
+  .activity-msg p {
+    font-size: 12px;
+  }
+
+  .activity-msg1 {
+    left: -20%;
+    top: 9%;
+  }
+  .activity-msg2 {
+    bottom: 10%;
+    left: -19%;
+  }
+  .activity-msg3 {
+    right: -25%;
+    bottom: 22%;
+  }
+
+  #l-n-p-approach {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .l-n-p-left img {
+    width: 18rem;
+    height: 18rem;
+  }
+
+  .l-n-p-right {
+    padding: 3%;
+  }
+
+  .l-n-p-right p {
+    width: auto;
+  }
+
+  .l-n-p-left,
+  .l-n-p-right {
+    margin-bottom: 5%;
+  }
+
+  /* sih section  */
+
+  #sih {
+    margin-top: 10%;
+  }
+  #sih h2 {
+    width: auto;
+  }
+  .sih-team {
+    flex-direction: column;
+  }
+  .team-card-container {
+    width: auto;
+    height: 22rem;
+    border-right: none;
+    border-bottom: 2px solid #ed4322;
+  }
+  .team-card {
+    width: 15rem;
+    height: 80%;
+  }
+  .team-text {
+    width: auto;
+    margin-top: 5%;
+  }
+
+  /* club activities  */
+
+  #club-activities,
+  .club-activities-container {
+    margin-top: 10%;
+  }
+  .club-activity {
+    flex-direction: column;
+    height: auto;
+  }
+  .club-activity-right {
+    justify-content: center;
+    margin: 10% 0;
+  }
+  .club-activity-img {
+    width: auto;
+    height: 12rem;
+  }
+  .club-activity-img img {
+    border-radius: 10px;
+  }
+
+  /* other activities  */
+
+  #other-activities {
+    margin-top: 10%;
+  }
+  .other-activities-container {
+    flex-direction: column;
+    margin-top: 10%;
+  }
+  .other-activity {
+    height: 23rem;
+    align-items: center;
+  }
+  .other-activity img {
+    width: 90%;
+    border-radius: 10px;
+  }
+  .activity-data {
+    margin-top: 5%;
+    width: 90%;
+  }
+}

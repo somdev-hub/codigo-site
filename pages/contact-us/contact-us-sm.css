@@ -18,21 +18,25 @@
     width: auto;
   }
 
-  .top-content p{
+  .top-content p {
     font-size: 14px;
   }
 
-  .bottom-content{
+  .bottom-content {
     margin-top: 20%;
   }
 
-  .bottom-content span{
+  .bottom-content span {
     font-size: 14px;
   }
 
-  .contact-rightcard{
+  .contact-rightcard {
     width: 100%;
     margin-top: 10%;
+  }
+
+  .contact-rightcard form ul {
+    padding: 0 5%;
   }
 
   .contact-rightcard form ul li label {
@@ -40,20 +44,20 @@
     font-weight: 400;
   }
 
-  .contact-rightcard form input{
+  .contact-rightcard form input {
     border-bottom: 1.5px solid #000;
   }
 
-  .contact-rightcard form textarea{
+  .contact-rightcard form textarea {
     border: 1.5px solid #000;
   }
 
-  .contact-buttons{
+  .contact-buttons {
     justify-content: center;
     margin: 10% 0;
   }
 
-  .contact-buttons button{
+  .contact-buttons button {
     width: 8rem;
   }
 }
