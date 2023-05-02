@@ -1,0 +1,45 @@
+.text-head {
+  height: 80vh;
+  margin-top: 0;
+}
+
+.text-head h1 {
+  color: #ed4322;
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.text-head p {
+  width: 75%;
+  text-align: center;
+}
+
+.text-content {
+  padding: 3%;
+}
+
+.text-content h1 {
+  font-size: 2rem;
+  margin: 30px 0;
+  color: #ed4322;
+}
+
+.text-content h2 {
+  font-size: 1.5rem;
+}
+
+.text-content h3 {
+  font-size: 1.3rem;
+}
+
+.text-content h3,
+.text-content h2,
+.text-content h4,
+.text-content h5 {
+  color: #ed4322;
+  margin: 20px 0;
+}
+
+.text-content p {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,9 @@
+@media screen and (max-width: 640px) {
+  .text-head p {
+    width: auto;
+  }
+
+  .text-head h1 {
+    font-size: 2.5rem;
+  }
+}
