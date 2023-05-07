@@ -2,7 +2,14 @@ const nav = document.querySelector(".nav-hamburger");
 const navbar = document.querySelector(".nav-right");
 nav.addEventListener("click", () => {
   // console.log("clicked");
-  navbar.classList.toggle("flex");
+  // navbar.classList.toggle("flex");
+  if (navbar.style.display == "flex") {
+    navbar.style.display = "none";
+    navbar.classList.remove("flex");
+  }else{
+
+    navbar.style.display = "flex";
+  }
 });
 
 // console.log(screen.width);

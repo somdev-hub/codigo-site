@@ -203,6 +203,7 @@ header {
   height: 500px;
   border: 1px solid;
   position: relative;
+  /* animation: rotatation 5s linear; */
 }
 
 .inner-circle1,
@@ -220,6 +221,7 @@ header {
   left: 23%;
   top: 16%;
   transform: rotate(45deg);
+  /* animation: rotatation 5s linear; */
 }
 
 .inner-circle1 {
@@ -254,7 +256,7 @@ header {
 }
 
 .small-circle img {
-  width: 45px;
+  width: 40px;
 }
 
 .small-circle1 {
@@ -294,7 +296,7 @@ header {
 }
 
 .social-icon img {
-  width: 20px;
+  width: 35px;
 }
 
 /* into section  */
@@ -506,6 +508,7 @@ header {
 .section5 img {
   object-fit: cover;
   border-radius: 10px;
+  /* width: ; */
 }
 
 .section-container {
@@ -598,6 +601,13 @@ header {
   width: 90%;
   height: 85%;
   object-fit: cover;
+}
+
+.activity-img img:hover{
+  /* transform: scale(1.1); */
+  height: 100%;
+  width: 100%;
+  transition: 0.5s;
 }
 
 /* codigo app section  */

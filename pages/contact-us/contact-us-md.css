@@ -1,0 +1,6 @@
+@media screen and (min-width: 640px) and (max-width: 1024px) {
+    .contact-us-container{
+        width: 90vw;
+        height: 30rem;
+    }
+}

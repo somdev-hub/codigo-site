@@ -1,0 +1,58 @@
+@media screen and (min-width: 640px) and (max-width: 1024px) {
+  #domain-header {
+    margin-top: 5%;
+  }
+  header {
+    margin: 0;
+  }
+
+  .container1 h1 {
+    font-size: 3.5rem;
+  }
+  .container2 img {
+    width: 18rem;
+  }
+  .row-one {
+    height: 22rem;
+  }
+  .sic-mssg {
+    flex-direction: column;
+    height: auto;
+  }
+  .features {
+    margin-top: 10%;
+  }
+  .feature {
+    width: 15rem;
+  }
+  .row-two {
+    padding: 3%;
+    height: 18rem;
+  }
+  .skill-row1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    row-gap: 10%;
+  }
+  #domain-intro {
+    margin: 10% 3%;
+    flex-direction: column-reverse;
+  }
+
+  .d-activity-img-container {
+    width: 21rem;
+    height: 17rem;
+  }
+  .tri-options div {
+    width: 10px;
+    height: 10px;
+  }
+  .d-activity-img1 {
+    width: 17rem;
+    height: 12rem;
+  }
+  .d-activity-img2 {
+    width: 13rem;
+    height: 15rem;
+  }
+}

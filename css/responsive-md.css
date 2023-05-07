@@ -13,6 +13,14 @@
     font-size: 1.4rem;
   }
 
+  #social,
+  #testimonials,
+  #coordinators,
+  #activities,
+  #footer {
+    margin-top: 10%;
+  }
+
   .nav-right {
     display: none;
     flex-direction: column;
@@ -24,25 +32,36 @@
     transition: 1.3s;
   }
   .nav-logo img {
-    height: 35px;
+    height: 50px;
   }
   .nav-logo p {
-    /* font-size: 1rem; */
+    font-size: 1.4rem;
   }
   .nav-left {
     width: 100%;
     padding: 0 1%;
-    justify-content: space-between;
+  }
+  .nav-logo {
+    flex: 1;
+    display: flex;
+    gap: 3%;
+    justify-content: flex-start;
   }
   .nav-hamburger {
     margin-right: 3%;
+    flex: 1;
+    justify-content: flex-end;
+    display: flex;
   }
   .nav-hamburger i {
-    display: block;
+    display: flex;
+    font-size: 2.5rem;
   }
   nav {
     flex-direction: column;
     align-items: flex-start;
+    padding: 2% 2%;
+    box-sizing: border-box;
   }
   .nav-list {
     width: 100%;
@@ -55,11 +74,16 @@
     height: 100%;
     margin: 0;
   }
+  .nav-list ul li {
+    font-size: 1.5rem;
+  }
   .nav-buttons {
     width: 95%;
   }
   .nav-button {
     width: 50%;
+    height: 50px;
+    font-size: 1.4rem;
   }
 
   /* header section  */
@@ -253,36 +277,36 @@
     flex: 1;
   }
 
-    /* codigo-app section  */
+  /* codigo-app section  */
 
-    .container-left,
-    .container-right {
-      width: auto;
-    }
-    .container-left {
-      padding: 3%;
-    }
-    .container-left h2 {
-      font-size: 2rem;
-      width: 96%;
-    }
-    .container-right img {
-      width: 25rem;
-    }
-    .app-stores img {
-      width: 35%;
-    }
+  .container-left,
+  .container-right {
+    width: auto;
+  }
+  .container-left {
+    padding: 3%;
+  }
+  .container-left h2 {
+    font-size: 2rem;
+    width: 96%;
+  }
+  .container-right img {
+    width: 25rem;
+  }
+  .app-stores img {
+    width: 35%;
+  }
 
-    #coordinators {
-      margin-top: 10%;
-    }
+  #coordinators {
+    margin-top: 10%;
+  }
 
-    .coordinators-container {
-      grid-template-columns: 25rem 25rem;
-      margin-top: 5%;
-    }
+  .coordinators-container {
+    grid-template-columns: 25rem 25rem;
+    margin-top: 5%;
+  }
 
-      /* testimonial section  */
+  /* testimonial section  */
   #testimonials {
     margin-top: 10%;
   }
@@ -300,5 +324,22 @@
   }
   .space {
     margin: 0 20px;
+  }
+
+  .social-container {
+    width: 90%;
+  }
+
+  #footer {
+    flex-direction: column-reverse;
+  }
+  .footer-left {
+    margin-top: 5%;
+  }
+  .footer-right {
+    margin-top: 3%;
+  }
+  .links-container {
+    grid-template-columns: 17rem 17rem auto;
   }
 }
