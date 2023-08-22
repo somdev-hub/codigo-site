@@ -14,22 +14,22 @@ p {
 }
 
 h2 {
-  font-size: 2rem;
-  font-weight: 600;
-}
-
-h3 {
   font-size: 1.6rem;
   font-weight: 600;
 }
 
-h4 {
+h3 {
   font-size: 1.4rem;
   font-weight: 600;
 }
 
-h5 {
+h4 {
   font-size: 1.2rem;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 1rem;
   font-weight: 600;
 }
 
@@ -136,13 +136,13 @@ nav {
 /* header  */
 
 header {
-  align-items: center;
+  align-items: flex-start;
   margin-top: 5%;
 }
 
 .header-left {
   padding-left: 30px;
-  width: 60%;
+  width: 55%;
 }
 
 .header-right {
@@ -328,7 +328,7 @@ header {
   object-fit: cover;
   right: 0;
   bottom: 0;
-  border-radius: 30px;
+  border-radius: 20px;
 }
 
 /* intro2 section  */
@@ -554,7 +554,7 @@ header {
   width: 11rem;
   height: 3.5rem;
   border: none;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 600;
   gap: 5%;
 }
@@ -591,7 +591,7 @@ header {
 
 .activity-img {
   width: 80vw;
-  height: 25rem;
+  height: 22rem;
   background-color: #ed4322;
   align-items: end;
   justify-content: flex-end;
@@ -603,7 +603,7 @@ header {
   object-fit: cover;
 }
 
-.activity-img img:hover{
+.activity-img img:hover {
   /* transform: scale(1.1); */
   height: 100%;
   width: 100%;
@@ -628,16 +628,16 @@ header {
 }
 
 .container-left h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   width: 75%;
 }
 
 .container-left p {
-  margin: 5% 0;
+  margin: 3% 0;
 }
 
 .container-right img {
-  width: 35rem;
+  width: 30rem;
 }
 
 .app-stores {
@@ -856,7 +856,7 @@ header {
   border-radius: 5rem;
   background: none;
   color: #fff;
-  font-size: 1rem;
+  font-size: 14px;
   padding: 0 3%;
   box-sizing: border-box;
   margin-right: 3%;
@@ -873,18 +873,18 @@ header {
   border-radius: 5rem;
   background-color: #fff;
   color: #000;
-  font-size: 1rem;
+  font-size: 14px;
 }
 
 .footer-logo {
-  width: 12rem;
-  height: 12rem;
+  width: 10rem;
+  height: 10rem;
   background-color: #fff;
   border-radius: 100%;
 }
 
 .footer-logo img {
-  width: 10rem;
+  width: 8rem;
 }
 
 .logo-container {
@@ -895,6 +895,10 @@ header {
   margin: 5% 0;
   text-align: center;
   width: 85%;
+}
+
+.logo-content p {
+  font-size: 14px;
 }
 
 .footer-social {
@@ -919,10 +923,8 @@ header {
 
 .links ul li {
   list-style: none;
-}
-
-.links ul li {
   margin-bottom: 5%;
+  font-size: 14px;
 }
 
 /* copyright section  */

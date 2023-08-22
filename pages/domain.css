@@ -1,3 +1,7 @@
+p {
+  font-size: 14px;
+}
+
 .row-one {
   width: 96%;
   height: 27rem;
@@ -20,7 +24,7 @@
 }
 
 .container1 p {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .container2 {
@@ -36,7 +40,7 @@
 
 .row-two {
   width: 96%;
-  height: 17rem;
+  height: 15rem;
   background: rgba(237, 67, 34, 0.25);
   border-radius: 30px;
   margin-top: 3%;
@@ -56,9 +60,10 @@
 .skill {
   background: rgba(237, 67, 34, 0.5);
   border-radius: 5rem;
-  height: 2.5rem;
+  height: 2rem;
   width: 7rem;
   color: #fff;
+  font-size: 14px;
 }
 
 .sic-mssg {
@@ -90,7 +95,7 @@
 }
 
 .feature {
-  width: 27rem;
+  width: 24rem;
   height: 15rem;
   background: rgba(237, 67, 34, 0.25);
   border-radius: 30px;
@@ -228,8 +233,8 @@
   justify-content: space-around;
   padding: 1.5%;
   box-sizing: border-box;
-  width: 23rem !important;
-  height: 28rem;
+  width: 19rem !important;
+  height: 24rem;
 }
 
 .project-title {
@@ -241,11 +246,11 @@
 }
 
 .project-title img {
-  width: 2rem;
+  width: 1.7rem;
 }
 
 .project-title i {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 }
 
 .tags {
@@ -262,7 +267,7 @@
 }
 
 .project-button span {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .project-button i {
