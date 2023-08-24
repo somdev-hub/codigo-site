@@ -1,0 +1,119 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.coord-header-left,
+.coord-header-right {
+    flex: 1;
+}
+
+#coord-header {
+    height: 80vh;
+    margin-top: 3%;
+}
+
+.coord-header-left {
+    margin-left: 5%;
+    height: 100%;
+}
+
+.coord-heading {
+    height: 90%;
+}
+
+.coord-heading h1 {
+    color: var(--primary-color);
+}
+
+.coord-heading p {
+    width: 75%;
+    margin-top: 3%;
+    color: #434242;
+    font-weight: 500;
+}
+
+a[href="#what-we-do"] {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.mouse-scroll {
+    align-items: center;
+    gap: 5px;
+}
+
+.mouse-scroll i:nth-child(1) {
+    font-size: 1.8rem;
+}
+
+.mouse-scroll i:nth-child(2) {
+    font-size: 1.2rem;
+}
+
+#gs-mssg {
+    background-color: var(--grey);
+    margin-top: 5%;
+    padding: 3%;
+}
+
+.gs-mssg-left,
+.gs-mssg-right {
+    flex: 1;
+}
+
+.gs-mssg-left img {
+    width: 60%;
+}
+
+.gs-mssg-right h2 {
+    margin-bottom: 5%;
+}
+
+#gs-main {
+    margin-top: 5%;
+    width: 100%;
+}
+
+#gs-main h2 {
+    margin-bottom: 2%;
+}
+
+.gs-main-cards {
+    margin-top: 5%;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.gs-main-card {
+    width: 15rem;
+    height: 15rem;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: var(--box-shadow-strong);
+    text-align: center;
+}
+
+.gs-main-card-head,
+.gs-main-card-body {
+    flex: 1;
+}
+
+.gs-main-card-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.gs-main-card-circle {
+    width: 3rem;
+    height: 3rem;
+    /* background-color: var(--primary-color); */
+    border: 2px solid var(--primary-color);
+    border-radius: 100%;
+}
+
+.gs-main-card-circle p {
+    font-size: 18px;
+    color: var(--primary-color);
+    font-weight: 600;
+}

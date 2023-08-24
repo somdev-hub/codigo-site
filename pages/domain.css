@@ -9,13 +9,13 @@ p {
 }
 
 .container1 {
-  background-color: #ed4322;
+  background-color: var(--primary-color);
   border-radius: 30px;
   width: 62%;
   height: 100%;
   padding: 3%;
   box-sizing: border-box;
-  color: #fff;
+  color: var(--white);
 }
 
 .container1 h1 {
@@ -30,7 +30,7 @@ p {
 .container2 {
   width: 35%;
   height: 100%;
-  background-color: #ed4322;
+  background-color: var(--primary-color);
   border-radius: 30px;
 }
 
@@ -41,7 +41,7 @@ p {
 .row-two {
   width: 96%;
   height: 15rem;
-  background: rgba(237, 67, 34, 0.25);
+  background: var(--secondary-color);
   border-radius: 30px;
   margin-top: 3%;
   padding: 2%;
@@ -58,18 +58,18 @@ p {
 }
 
 .skill {
-  background: rgba(237, 67, 34, 0.5);
+  background: var(--tertiary-color);
   border-radius: 5rem;
   height: 2rem;
   width: 7rem;
-  color: #fff;
+  color: var(--white);
   font-size: 14px;
 }
 
 .sic-mssg {
   width: 96%;
   height: 22rem;
-  background: rgba(237, 67, 34, 0.25);
+  background: var(--secondary-color);
   border-radius: 30px;
   margin-top: 3%;
   padding: 2%;
@@ -106,7 +106,7 @@ p {
   width: 5rem;
   height: 5rem;
   border-radius: 100%;
-  background-color: #fff;
+  background-color: var(--white);
   top: -15%;
   position: absolute;
   box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.05);
@@ -159,7 +159,7 @@ p {
 }
 
 .d-activity-img-container {
-  background: #ed4322;
+  background: var(--primary-color);
   box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
   width: 30rem;
@@ -177,13 +177,13 @@ p {
   width: 15px;
   height: 15px;
   border-radius: 100%;
-  background-color: #fff;
+  background-color: var(--white);
 }
 
 .d-activity-img1,
 .d-activity-img2 {
   position: absolute;
-  background: #ffffff;
+  background: var(--white);
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
 }
@@ -213,7 +213,7 @@ p {
 /* project section  */
 
 #projects {
-  background-color: #eeeeee;
+  background-color: var(--grey);
 }
 
 #projects h2 {
@@ -226,8 +226,8 @@ p {
 }
 
 .project {
-  background: #ffffff;
-  border: 1px solid #ed4322;
+  background: var(--white);
+  border: 1px solid var(--primary-color);
   box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.03);
   border-radius: 20px;
   justify-content: space-around;
@@ -238,7 +238,7 @@ p {
 }
 
 .project-title {
-  background: #eeeeee;
+  background: var(--grey);
   border-radius: 10px;
   width: 100%;
   height: 15%;
@@ -259,8 +259,8 @@ p {
 }
 
 .project-button {
-  background: #ffffff;
-  border: 2px solid #ed4322;
+  background: var(--white);
+  border: 2px solid var(--primary-color);
   border-radius: 50px;
   height: 12%;
   width: 100%;

@@ -13,7 +13,7 @@
 
 .contact-us-container {
   margin-top: 5%;
-  background: #ffffff;
+  background: var(--white);
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
   width: 65vw;
@@ -29,9 +29,9 @@
 }
 
 .contact-leftcard {
-  background: #ed4322;
+  background: var(--primary-color);
   border-radius: 30px;
-  color: #fff;
+  color: var(--white);
   height: 100%;
   position: relative;
   box-sizing: border-box;
@@ -110,16 +110,16 @@
 
 input {
   border: none;
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid var(--black);
 }
 
 input:focus {
   border: none;
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid var(--black);
 }
 
 textarea {
-  border: 2px solid #000;
+  border: 2px solid var(--black);
   height: 7rem;
   resize: none;
 }
@@ -137,12 +137,12 @@ textarea {
 }
 
 .contact-buttons button:nth-child(1) {
-  border: 1px solid #ed4322;
-  background-color: #fff;
+  border: 1px solid var(--primary-color);
+  background-color: var(--white);
 }
 
 .contact-buttons button:nth-child(2) {
-  background: #ed4322;
-  color: #fff;
+  background: var(--primary-color);
+  color: var(--white);
   border: none;
 }

@@ -22,7 +22,7 @@ html {
 }
 
 .coord-heading h1 {
-  color: #ed4322;
+  color: var(--primary-color);
 }
 
 .coord-heading p {
@@ -34,7 +34,7 @@ html {
 
 a[href="#what-we-do"] {
   text-decoration: none;
-  color: #000;
+  color: var(--black);
 }
 
 .mouse-scroll {
@@ -57,7 +57,7 @@ a[href="#what-we-do"] {
 }
 
 #what-we-do {
-  background-color: #eeeeee;
+  background-color: var(--grey);
   padding: 2%;
 }
 
@@ -102,8 +102,8 @@ a[href="#what-we-do"] {
 }
 
 .coord-img,.coord-img-sm{
-  border-left: 2px solid #000;
-  border-bottom: 2px solid #000;
+  border-left: 2px solid var(--black);
+  border-bottom: 2px solid var(--black);
 }
 
 .coord-img {
@@ -131,13 +131,13 @@ a[href="#what-we-do"] {
 }
 
 .coord-img-bg {
-  background-color: #eeeeee;
+  background-color: var(--grey);
   width: 90%;
   height: 17rem;
 }
 
 .coord-img-bg-sm {
-  background-color: #eeeeee;
+  background-color: var(--grey);
   width: 90%;
   height: 8rem;
 }

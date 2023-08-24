@@ -41,6 +41,18 @@ button {
   -webkit-tap-highlight-color: transparent;
 }
 
+:root {
+  --primary-color: #ed4322;
+  --secondary-color: rgba(237, 67, 34, 0.25);
+  --tertiary-color: rgba(237, 67, 34, 0.5);
+  --white: #ffffff;
+  --black: #000000;
+  --grey: #eeeeee;
+  --light-grey: #8a8c8c;
+  --box-shadow-gentle: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  --box-shadow-strong: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
 #social,
 #testimonials,
 #coordinators,
@@ -53,11 +65,15 @@ button {
 
 nav {
   width: 100%;
+  background-color: var(--white);
+  box-shadow: var(--box-shadow-gentle);
+  position: fixed;
+  top: 0;
+  z-index: 10;
 }
 
 .nav-right {
   width: 50%;
-  /* gap: 5%; */
   flex: 1;
   padding-right: 20px;
   display: flex;
@@ -65,19 +81,19 @@ nav {
 }
 
 .nav-left {
-  /* width: 50%; */
   align-items: center;
   padding-left: 20px;
 }
 
 .nav-left img {
-  height: 50px;
+  height: 35px;
 }
 
 .nav-left p {
-  color: #ed4322;
+  color: var(--primary-color);
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 14px;
+  margin-left: 5%;
 }
 
 .nav-hamburger i {
@@ -99,16 +115,16 @@ nav {
   list-style-type: none;
   margin-left: 5%;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .nav-list ul li a {
   text-decoration: none;
-  color: #000;
+  color: var(--black);
 }
 
 .nav-list ul li a:hover {
-  color: #ed4322;
+  color: var(--primary-color);
 }
 
 .nav-buttons {
@@ -121,23 +137,23 @@ nav {
   height: 35px;
   border: none;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 14px;
 }
 
 .nav-button1 {
-  background-color: #eeeeee;
+  background-color: var(--grey);
 }
 
 .nav-button2 {
-  background-color: #ed4322;
-  color: #fff;
+  background-color: var(--primary-color);
+  color: var(--white);
 }
 
 /* header  */
 
 header {
   align-items: flex-start;
-  margin-top: 5%;
+  margin-top: 8%;
 }
 
 .header-left {
@@ -150,19 +166,20 @@ header {
 }
 
 .header-left h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .header-left h1 {
-  font-size: 6rem;
-  color: #ed4322;
+  font-size: 5rem;
+  color: var(--primary-color);
   line-height: 1.3;
 }
 
 .header-left h4 {
   font-weight: 500;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   width: 80%;
+  margin: 3% 0;
 }
 
 .header-left p {
@@ -178,10 +195,10 @@ header {
 
 .header-form input {
   border-radius: 60px;
-  border: 2px solid #ed4322;
+  border: 2px solid var(--primary-color);
   width: 56%;
-  height: 60px;
-  font-size: 1.2rem;
+  height: 50px;
+  font-size: 1rem;
   padding-left: 20px;
   box-sizing: border-box;
   margin-right: 2%;
@@ -190,20 +207,19 @@ header {
 .header-form button {
   width: 20%;
   border: none;
-  background: #ed4322;
-  height: 60px;
-  color: #fff;
+  background: var(--primary-color);
+  height: 50px;
+  color: var(--white);
   border-radius: 60px;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .outer-circle {
   border-radius: 100%;
-  width: 500px;
-  height: 500px;
+  width: 450px;
+  height: 450px;
   border: 1px solid;
   position: relative;
-  /* animation: rotatation 5s linear; */
 }
 
 .inner-circle1,
@@ -215,48 +231,47 @@ header {
 
 .inner-semicircle {
   border-radius: 400px 400px 0 0;
-  width: 400px;
-  height: 225px;
+  width: 350px;
+  height: 200px;
   background-color: #191919;
   left: 23%;
   top: 16%;
   transform: rotate(45deg);
-  /* animation: rotatation 5s linear; */
 }
 
 .inner-circle1 {
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
   border-radius: 100%;
   top: 13%;
-  background-color: #ed4322;
-  left: 6%;
+  background-color: var(--primary-color);
+  left: 7%;
 }
 
 .inner-circle2 {
-  background-color: #fff;
+  background-color: var(--white);
   border-radius: 100%;
-  width: 275px;
-  height: 275px;
-  top: 10%;
-  left: 10%;
+  width: 250px;
+  height: 250px;
+  top: 8%;
+  left: 8%;
 }
 
 .inner-circle2 img {
-  width: 250px;
+  width: 200px;
   transform: rotate(-45deg);
 }
 
 .small-circle {
-  background: #ffffff;
-  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
-  width: 70px;
-  height: 70px;
+  background: var(--white);
+  box-shadow: var(--box-shadow-gentle);
+  width: 60px;
+  height: 60px;
   border-radius: 100%;
 }
 
 .small-circle img {
-  width: 40px;
+  width: 35px;
 }
 
 .small-circle1 {
@@ -287,8 +302,8 @@ header {
 }
 
 .social-icon {
-  background: #ffffff;
-  box-shadow: 0px 5px 66px rgba(0, 0, 0, 0.25);
+  background: var(--white);
+  box-shadow: var(--box-shadow-gentle);
   width: 60px;
   height: 60px;
   border-radius: 100%;
@@ -306,7 +321,7 @@ header {
   margin-top: 5%;
   width: 95vw;
   height: 20rem;
-  background: rgba(237, 67, 34, 0.25);
+  background: var(--secondary-color);
   border-radius: 30px;
   padding: 2%;
   box-sizing: border-box;
@@ -358,34 +373,31 @@ header {
   width: 50px;
   height: 50px;
   border-radius: 100%;
-  background-color: #eeeeee;
+  background-color: var(--grey);
 }
 
 /* domains  */
 
 #domains {
   height: 30rem;
-  background-color: #eeeeee;
+  background-color: var(--grey);
 }
 
 #domains a {
   text-decoration: none;
-  color: #000;
+  color: var(--black);
 }
 
-#domains h2 {
-  padding-top: 2%;
-}
 
 .domain-container {
   gap: 10%;
-  margin-top: 3%;
+  margin-top: 5%;
 }
 
 .domain {
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: var(--box-shadow-gentle);
   border-radius: 35px;
-  background-color: #fff;
+  background-color: var(--white);
   width: 15rem;
   height: 17rem;
   padding-left: 25px;
@@ -394,33 +406,33 @@ header {
 }
 
 .domain:hover {
-  background-color: #ed4322;
+  background-color: var(--primary-color);
   cursor: pointer;
 }
 
 .domain:hover h3,
 .domain:hover p,
 .domain:hover {
-  color: #fff;
+  color: var(--white);
 }
 
 .domain:hover svg {
-  color: #fff;
+  color: var(--white);
   margin-left: 10px;
   transition: 500ms;
 }
 
 .domain h3 {
-  font-size: 1.4rem;
-  font-weight: 700;
+  font-size: 1.2rem;
+  font-weight: 600;
   width: 50%;
 }
 
 .domain-icon {
   width: 75px;
   height: 75px;
-  background: #ffffff;
-  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
+  background: var(--white);
+  box-shadow: var(--box-shadow-gentle);
   border-radius: 20px;
 }
 
@@ -448,7 +460,7 @@ header {
 
 .msg {
   position: absolute;
-  background: rgba(237, 67, 34, 0.5);
+  background: var(--tertiary-color);
   border-radius: 10px;
   width: 100px;
   height: 40px;
@@ -548,8 +560,8 @@ header {
 }
 
 .view-button {
-  background: #ffffff;
-  box-shadow: 0px 10px 50px 2px rgba(0, 0, 0, 0.2);
+  background: var(--white);
+  box-shadow: var(--box-shadow-gentle);
   border-radius: 15px;
   width: 11rem;
   height: 3.5rem;
@@ -560,7 +572,7 @@ header {
 }
 
 .view-button:hover {
-  background-color: #ed4322;
+  background-color: var(--primary-color);
   color: #fff;
 }
 
@@ -590,9 +602,9 @@ header {
 }
 
 .activity-img {
-  width: 80vw;
+  width: 40%;
   height: 22rem;
-  background-color: #ed4322;
+  background-color: var(--primary-color);
   align-items: end;
   justify-content: flex-end;
 }
@@ -608,6 +620,10 @@ header {
   height: 100%;
   width: 100%;
   transition: 0.5s;
+}
+
+.activity-text {
+  width: 60%;
 }
 
 /* codigo app section  */
@@ -651,7 +667,7 @@ header {
 /* coordinators section  */
 
 #coordinators {
-  background-color: #eeeeee;
+  background-color: var(--grey);
 }
 
 #coordinators h2 {
@@ -673,8 +689,8 @@ header {
 .coordinator {
   width: 22rem;
   height: 10rem;
-  background: #ffffff;
-  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+  background: var(--white);
+  box-shadow: var(--box-shadow-gentle);
   border-radius: 30px;
 }
 
@@ -687,7 +703,7 @@ header {
 .coordinator-img {
   width: 60px;
   height: 60px;
-  background-color: #eeeeee;
+  background-color: var(--grey);
   border-radius: 100%;
 }
 
@@ -705,8 +721,8 @@ header {
 }
 
 .expand-button {
-  background: #ffffff;
-  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+  background: var(--white);
+  box-shadow: var(--box-shadow-gentle);
   border-radius: 50px;
   width: 9rem;
   height: 3rem;
@@ -739,7 +755,7 @@ header {
 }
 
 .user {
-  background-color: #eeeeee;
+  background-color: var(--grey);
   border-radius: 3%;
   text-align: center;
   width: 30rem;
@@ -761,7 +777,7 @@ header {
 .controls span {
   width: 15px;
   height: 15px;
-  background: #ed4322;
+  background: var(--primary-color);
   border-radius: 15px;
   margin: 0 5px;
   cursor: pointer;
@@ -769,7 +785,7 @@ header {
 }
 
 .active {
-  background: #ffffff !important;
+  background: var(--white) !important;
   box-shadow: 0px 5px 21px rgba(0, 0, 0, 0.5) !important;
 }
 
@@ -790,15 +806,15 @@ header {
 
 .social-container {
   width: 70%;
-  height: 22rem;
+  height: 20rem;
   border-radius: 20rem;
   text-align: center;
-  background-color: #ed4322;
-  color: #fff;
+  background-color: var(--primary-color);
+  color: var(--white);
 }
 
 .social-container h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-bottom: 1%;
 }
 
@@ -809,16 +825,16 @@ header {
 }
 
 .social-buttons span {
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   border-radius: 100%;
-  background-color: #fff;
+  background-color: var(--white);
   cursor: pointer;
 }
 
 .social-buttons span i {
-  color: #ed4322;
-  font-size: 1.8rem;
+  color: var(--primary-color);
+  font-size: 1.5rem;
 }
 
 .social-buttons span:hover i {
@@ -829,7 +845,7 @@ header {
 /* footer section  */
 
 #footer {
-  background-color: #ed4322;
+  background-color: var(--primary-color);
   width: 100%;
   padding: 3% 0;
   justify-content: space-around;
@@ -837,12 +853,12 @@ header {
 
 .footer-left,
 .footer-right {
-  color: #fff;
+  color: var(--white);
 }
 
 .footer-right a {
   text-decoration: none;
-  color: #fff;
+  color: var(--white);
 }
 
 .footer-left h3 {
@@ -850,12 +866,12 @@ header {
 }
 
 .footer-form form input {
-  border: 2px solid #ffffff;
+  border: 2px solid var(--white);
   width: 19rem;
   height: 2.5rem;
   border-radius: 5rem;
   background: none;
-  color: #fff;
+  color: var(--white);
   font-size: 14px;
   padding: 0 3%;
   box-sizing: border-box;
@@ -863,7 +879,7 @@ header {
 }
 
 .footer-form form input::placeholder {
-  color: #fff;
+  color: var(--white);
 }
 
 .footer-form form button {
@@ -871,15 +887,15 @@ header {
   width: 8rem;
   height: 2.5rem;
   border-radius: 5rem;
-  background-color: #fff;
-  color: #000;
+  background-color: var(--white);
+  color: var(--black);
   font-size: 14px;
 }
 
 .footer-logo {
   width: 10rem;
   height: 10rem;
-  background-color: #fff;
+  background-color: var(--white);
   border-radius: 100%;
 }
 
@@ -929,9 +945,9 @@ header {
 
 /* copyright section  */
 #copyright {
-  background-color: #000;
+  background-color: var(--black);
   text-align: center;
-  color: #fff;
+  color: var(--white);
 }
 
 #copyright p {

@@ -36,6 +36,11 @@
   justify-content: center;
 }
 
+.flex-justify-between{
+  display: flex;
+  justify-content: space-between;
+}
+
 .flex-justify-column {
   display: flex;
   flex-direction: column;
