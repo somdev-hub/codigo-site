@@ -57,8 +57,8 @@
   cursor: pointer;
 }
 
-.content-title i{
-    display: none;
+.content-title i {
+  display: none;
 }
 
 .active-link {
@@ -77,4 +77,8 @@
 
 .club-info-page h2 {
   margin-bottom: 3%;
+}
+
+.page-content p {
+  font-size: 14px;
 }

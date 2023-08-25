@@ -7,6 +7,10 @@ html {
     flex: 1;
 }
 
+.coord-header-right img {
+    width: 60%;
+}
+
 #coord-header {
     height: 80vh;
     margin-top: 3%;
@@ -35,6 +39,10 @@ html {
 a[href="#what-we-do"] {
     text-decoration: none;
     color: var(--black);
+}
+
+.gs-mssg-left img {
+    width: 60%;
 }
 
 .mouse-scroll {
@@ -69,13 +77,17 @@ a[href="#what-we-do"] {
     margin-bottom: 5%;
 }
 
+.gs-mssg-right p {
+    width: 80%;
+}
+
 #gs-main {
     margin-top: 5%;
     width: 100%;
 }
 
 #gs-main h2 {
-    margin-bottom: 2%;
+    margin-bottom: 10px;
 }
 
 .gs-main-cards {
@@ -87,15 +99,23 @@ a[href="#what-we-do"] {
 .gs-main-card {
     width: 15rem;
     height: 15rem;
-    padding: 10px;
+    padding: 12px;
+    font-weight: 500;
     box-sizing: border-box;
-    box-shadow: var(--box-shadow-strong);
+    /* box-shadow: var(--box-shadow-strong); */
+    box-shadow:
+        rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+        rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     text-align: center;
 }
 
 .gs-main-card-head,
 .gs-main-card-body {
     flex: 1;
+}
+
+.gs-main-card-body p {
+    font-size: 14px;
 }
 
 .gs-main-card-head {
@@ -116,4 +136,87 @@ a[href="#what-we-do"] {
     font-size: 18px;
     color: var(--primary-color);
     font-weight: 600;
+}
+
+.gs-main-card-head p {
+    font-weight: 600;
+}
+
+#gs-content {
+    margin-top: 5%;
+    padding: 0% 5%;
+}
+
+#gs-content p {
+    font-size: 14px;
+}
+
+#gs-content h2 {
+    margin-bottom: 10px;
+}
+
+.gs-content-head {
+    margin-top: 3%;
+    text-align: center;
+}
+
+.gs-content-sections {
+    margin-top: 5%;
+}
+
+.gs-content-section {
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 20px;
+    margin-bottom: 3%;
+}
+
+.gs-content-section-content h4 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+#extra-gs {
+    margin-top: 5%;
+    padding: 0% 5%;
+}
+
+#extra-gs p {
+    font-size: 14px;
+}
+
+.extra-gs-head {
+    text-align: center;
+}
+
+.extra-gs-head h2 {
+    margin-bottom: 10px;
+}
+
+.extra-gs-content {
+    margin-top: 3%;
+    width: 100%;
+}
+.extra-gs-card {
+    width: 15rem;
+    height: 18rem;
+}
+.extra-gs-card-head {
+    width: 100%;
+    height: 40%;
+    border-radius: 10px;
+    background-color: var(--grey);
+}
+
+.extra-gs-card-content {
+    width: 100%;
+}
+
+.extra-gs-card-content p:nth-child(1) {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.extra-gs-card-content h4 {
+    color: var(--primary-color);
+    margin: 10px 0;
 }
