@@ -2,7 +2,7 @@
   #activities-header {
     flex-wrap: wrap;
     height: 100vh;
-    margin-top: 0;
+    margin-top: 5%;
   }
   .activities-left-text h1 {
     width: auto;

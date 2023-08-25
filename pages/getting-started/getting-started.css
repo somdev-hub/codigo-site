@@ -36,7 +36,7 @@ html {
     font-weight: 500;
 }
 
-a[href="#what-we-do"] {
+a[href="#gs-mssg"] {
     text-decoration: none;
     color: var(--black);
 }
@@ -198,11 +198,11 @@ a[href="#what-we-do"] {
 }
 .extra-gs-card {
     width: 15rem;
-    height: 18rem;
+    /* height: 18rem; */
 }
 .extra-gs-card-head {
     width: 100%;
-    height: 40%;
+    height: 8rem;
     border-radius: 10px;
     background-color: var(--grey);
 }

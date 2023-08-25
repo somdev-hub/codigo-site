@@ -4,7 +4,7 @@ p {
 
 .row-one {
   width: 96%;
-  height: 27rem;
+  height: 20rem;
   justify-content: space-between;
 }
 
@@ -13,18 +13,19 @@ p {
   border-radius: 30px;
   width: 62%;
   height: 100%;
-  padding: 3%;
+  padding: 2%;
   box-sizing: border-box;
   color: var(--white);
 }
 
 .container1 h1 {
-  font-size: 5rem;
+  font-size: 3.5rem;
   width: 50%;
 }
 
 .container1 p {
   font-size: 1rem;
+  margin-top: 3%;
 }
 
 .container2 {
@@ -35,7 +36,7 @@ p {
 }
 
 .container2 img {
-  width: 25rem;
+  width: 20rem;
 }
 
 .row-two {

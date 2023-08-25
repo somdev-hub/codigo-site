@@ -1,4 +1,11 @@
 @media screen and (max-width: 640px) {
+    #gs-mssg,
+    #gs-main,
+    #gs-content,
+    #extra-gs {
+        padding: 0 3%;
+    }
+
     #coord-header {
         flex-wrap: wrap;
         height: 100vh;
@@ -23,7 +30,6 @@
         margin: 10% 0;
     }
     #gs-main {
-        padding: 0 5%;
         box-sizing: border-box;
     }
     .gs-main-cards,

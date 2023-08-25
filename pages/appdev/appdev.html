@@ -41,6 +41,8 @@
     <link rel="stylesheet" href="../domain.css" />
     <link rel="stylesheet" href="../domain-sm.css" />
     <link rel="stylesheet" href="../domain-md.css" />
+    <!-- animate on scroll  -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- title  -->
     <title>Web Development</title>
   </head>
@@ -76,7 +78,7 @@
     <section id="domain-header">
       <header class="flex-box-column">
         <div class="row-one flex">
-          <div class="container1">
+          <div class="container1" data-aos="fade-right">
             <h1>APP DEVELOPMENT</h1>
             <p>
               Equipped with one of the most demanding skill in the industry, our
@@ -84,11 +86,11 @@
               backend and frontend.
             </p>
           </div>
-          <div class="container2 flex-box">
-            <img src="../../src/Mobile application.svg" alt="" />
+          <div class="container2 flex-box" data-aos="fade-left">
+            <img src="../../src/Mobile application.svg" alt="" style="width: 17rem;"/>
           </div>
         </div>
-        <div class="row-two">
+        <div class="row-two" data-aos="fade-up">
           <h2>Top Skills</h2>
           <div class="skill-container flex-column">
             <div class="skill-row1 flex">
@@ -115,7 +117,7 @@
             </div>
           </div>
         </div>
-        <div class="sic-mssg flex-box">
+        <div class="sic-mssg flex-box" data-aos="fade-down">
           <div class="sic-mssg-left">
             <h2>Message from the Student-in-charge</h2>
             <p>
@@ -136,7 +138,7 @@
           </div>
         </div>
         <div class="features flex">
-          <div class="feature feature1 flex-box">
+          <div class="feature feature1 flex-box" data-aos="flip-right">
             <div class="feature-icon flex-box">
               <img src="../../src/Chart_alt_duotone_line.svg" alt="" />
             </div>
@@ -148,7 +150,7 @@
               </p>
             </div>
           </div>
-          <div class="feature feature1 flex-box">
+          <div class="feature feature1 flex-box" data-aos="flip-right">
             <div class="feature-icon flex-box">
               <img src="../../src/Pipe_duotone.svg" alt="" />
             </div>
@@ -160,7 +162,7 @@
               </p>
             </div>
           </div>
-          <div class="feature feature1 flex-box">
+          <div class="feature feature1 flex-box" data-aos="flip-right">
             <div class="feature-icon flex-box">
               <img src="../../src/Book_check_duotone_line.svg" alt="" />
             </div>
@@ -218,10 +220,10 @@
                 <div></div>
                 <div></div>
               </div>
-              <div class="d-activity-img1">
+              <div class="d-activity-img1" data-aos="zoom-in">
                 <img src="" alt="" />
               </div>
-              <div class="d-activity-img2">
+              <div class="d-activity-img2" data-aos="zoom-out">
                 <img src="" alt="" />
               </div>
             </div>
@@ -249,10 +251,10 @@
                 <div></div>
                 <div></div>
               </div>
-              <div class="d-activity-img1">
+              <div class="d-activity-img1" data-aos="zoom-in">
                 <img src="" alt="" />
               </div>
-              <div class="d-activity-img2">
+              <div class="d-activity-img2" data-aos="zoom-out">
                 <img src="" alt="" />
               </div>
             </div>
@@ -280,10 +282,10 @@
                 <div></div>
                 <div></div>
               </div>
-              <div class="d-activity-img1">
+              <div class="d-activity-img1" data-aos="zoom-in">
                 <img src="" alt="" />
               </div>
-              <div class="d-activity-img2">
+              <div class="d-activity-img2" data-aos="zoom-out">
                 <img src="" alt="" />
               </div>
             </div>
@@ -291,7 +293,7 @@
         </div>
       </div>
     </section>
-    <section id="projects" class="flex-box-column">
+    <section id="projects" class="flex-box-column" data-aos="fade-up">
       <h2>Projects</h2>
       <div class="projects-container swiper mySwiper">
         <div class="swiper-wrapper projects-slides">
@@ -474,7 +476,7 @@
               <li>Blog</li>
               <li>Forum</li>
               <li>Application</li>
-              <li>Advitisements</li>
+              <li>Advertisements</li>
             </ul>
           </div>
           <div class="links flex-column reach-us">
@@ -502,7 +504,7 @@
             <ul>
               <li>Apply</li>
               <li>How we work</li>
-              <li>Secratary</li>
+              <li>Secretary</li>
               <li>FC</li>
               <li>Management</li>
             </ul>
@@ -513,7 +515,7 @@
               <li>Beta program</li>
               <li>Testing</li>
               <li>Early access</li>
-              <li>Monitering</li>
+              <li>Monitoring</li>
               <li>Features</li>
             </ul>
           </div>
@@ -537,8 +539,15 @@
       </p>
     </section>
 
+    <!-- swiper scripts  -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- local scripts -->
     <script src="../domain.js"></script>
     <script src="../../scripts/script.js"></script>
+    <!-- aos script  -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   </body>
 </html>
