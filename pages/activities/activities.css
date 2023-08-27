@@ -57,7 +57,7 @@ a[href="#l-n-p-approach"] {
 }
 
 .activity-msg {
-  background: #ffffff;
+  background: var(--white);
   box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.12);
   border-radius: 15px;
   width: 13rem;

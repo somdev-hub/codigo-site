@@ -1,0 +1,83 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#alpha-header {
+    margin-top: 3%;
+    height: 80vh;
+}
+
+.alpha-left {
+    margin-left: 5%;
+    flex: 1;
+    height: 100%;
+}
+
+.alpha-left-text h1 {
+    color: var(--primary-color);
+    width: 50%;
+}
+
+.alpha-left-text {
+    height: 90%;
+}
+
+.alpha-left-text p {
+    width: 75%;
+    margin-top: 3%;
+    color: #434242;
+    font-weight: 500;
+}
+
+.alpha-right {
+    flex: 1;
+    position: relative;
+}
+
+.alpha-right img {
+    width: 28rem;
+}
+
+.mouse-scroll {
+    align-items: center;
+    gap: 5px;
+}
+
+.mouse-scroll i:nth-child(1) {
+    font-size: 1.8rem;
+}
+
+.mouse-scroll i:nth-child(2) {
+    font-size: 1.2rem;
+}
+
+#alpha-mssg {
+    background-color: var(--grey);
+    margin-top: 5%;
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+.alpha-mssg-left,
+.alpha-mssg-right {
+    flex: 1;
+}
+
+.alpha-mssg-left img {
+    height: 25rem;
+    width: 25rem;
+}
+
+.alpha-mssg-right p {
+    margin-top: 5%;
+    width: 90%;
+}
+
+.alpha-main {
+    margin-top: 5%;
+    width: 100%;
+}
+
+.alpha-main h2 {
+    margin-bottom: 10px;
+}
