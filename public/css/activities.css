@@ -1,0 +1,293 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#activities-header {
+  margin-top: 3%;
+  height: 80vh;
+}
+
+.activities-left {
+  margin-left: 5%;
+  flex: 1;
+  height: 100%;
+}
+
+.activities-left-text h1 {
+  color: var(--primary-color);
+  width: 50%;
+}
+
+.activities-left-text {
+  height: 90%;
+}
+
+.activities-left-text p {
+  width: 75%;
+  margin-top: 3%;
+  color: #434242;
+  font-weight: 500;
+}
+
+.activities-right {
+  flex: 1;
+  position: relative;
+}
+
+.activities-right img {
+  width: 28rem;
+}
+
+a[href="#l-n-p-approach"] {
+  text-decoration: none;
+  color: #000;
+}
+
+.mouse-scroll {
+  align-items: center;
+  gap: 5px;
+}
+
+.mouse-scroll i:nth-child(1) {
+  font-size: 1.8rem;
+}
+
+.mouse-scroll i:nth-child(2) {
+  font-size: 1.2rem;
+}
+
+.activity-msg {
+  background: var(--white);
+  box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.12);
+  border-radius: 15px;
+  width: 13rem;
+  height: 4.3rem;
+  gap: 5%;
+  position: absolute;
+}
+
+.activity-msg1 {
+  left: 5%;
+  top: 5%;
+}
+
+.activity-msg2 {
+  bottom: -12%;
+  left: 13%;
+}
+
+.activity-msg3 {
+  right: 5%;
+  bottom: 12%;
+}
+
+.activity-msg img {
+  width: 3rem;
+}
+
+/* l-n-p section  */
+
+#l-n-p-approach {
+  background-color: var(--grey);
+  margin-top: 5%;
+  padding: 2%;
+  box-sizing: border-box;
+}
+
+.l-n-p-left,
+.l-n-p-right {
+  flex: 1;
+}
+
+.l-n-p-left img {
+  height: 25rem;
+  width: 25rem;
+}
+
+.l-n-p-right p {
+  margin-top: 5%;
+  width: 80%;
+}
+
+/* sih section  */
+
+#sih {
+  margin-top: 5%;
+}
+
+#sih h2 {
+  width: 60%;
+  text-align: center;
+}
+
+.sih-team-container {
+  margin-top: 3%;
+  width: 100%;
+  padding: 3%;
+  box-sizing: border-box;
+}
+
+.sih-team {
+  justify-content: space-around;
+}
+
+.sih-team1 {
+  margin-bottom: 5%;
+}
+
+.team-card-container {
+  width: 25%;
+  height: 20rem;
+  border-right: 2px solid var(--primary-color);
+}
+
+.team-card {
+  width: 16rem;
+  height: 100%;
+  background: var(--secondary-color);
+  box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.12);
+  border-radius: 30px;
+}
+
+.team-img {
+  height: 50%;
+  width: 100%;
+}
+
+.team-img img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.team-desc {
+  padding: 5%;
+  margin-top: 5%;
+}
+
+.team-desc p {
+  margin-top: 5%;
+}
+
+.team-text {
+  width: 70%;
+}
+
+#club-activities {
+  padding: 3%;
+}
+
+.club-activities-container {
+  margin-top: 5%;
+}
+
+.club-activity-left,
+.club-activity-right {
+  flex: 1;
+}
+
+.club-activity-left p {
+  margin-top: 3%;
+}
+
+.club-activity-left h3 {
+  color: var(--primary-color);
+}
+
+.club-activity-right {
+  justify-content: flex-end;
+}
+
+.club-activity {
+  height: 20rem;
+  border-bottom: 1px solid var(--primary-color);
+  align-items: flex-start;
+  margin-bottom: 5%;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.club-activity-img {
+  height: 15rem;
+  width: 60%;
+}
+
+.club-activity-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/* other activity section  */
+
+.other-activities-container {
+  margin-top: 5%;
+  gap: 5%;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.other-activity {
+  width: 20rem;
+  height: 25rem;
+}
+
+.other-activity img {
+  width: 100%;
+  height: 45%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.activity-data {
+  margin-top: 3%;
+}
+
+.activity-data > * {
+  margin-bottom: 3%;
+}
+
+.l-n-p-left .form {
+  background-color: white;
+  box-shadow: var(--box-shadow-gentle);
+  border-radius: 10px;
+  padding: 1rem;
+  height: 15rem;
+  width: 15rem;
+}
+
+.l-n-p-left .form button {
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  /* background-color: var(--primary-color); */
+  outline: none;
+  width: 100%;
+}
+
+.l-n-p-left .form p {
+  margin: 3% 0;
+  font-weight: 500;
+}
+
+.l-n-p-left .form p:nth-of-type(3) {
+  /* margin: 3% 0; */
+  /* font-weight: 500; */
+  color: blue;
+}
+
+.l-n-p-left .form button:nth-of-type(1) {
+  /* margin-top: 1rem; */
+  background-color: var(--primary-color);
+  margin: 5% 0;
+}
+
+.l-n-p-left .form button:nth-of-type(2) {
+  /* background-color: var(--secondary-color); */
+  color: #000;
+}
